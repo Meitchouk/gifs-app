@@ -1,0 +1,8 @@
+<div class="search-box container mt-3">
+  <h5>Buscar:</h5>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar" aria-describedby="button-addon2"
+      (keyup.enter)="searchTag()" #txtTagInput>
+    <button class="btn btn-secondary" type="button" id="button-addon2" (click)="txtTagInput.value=''">Limpiar</button>
+  </div>
+</div>
